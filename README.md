@@ -31,3 +31,10 @@ Basics of Git and GitHub.
 <b> All the operation which we perform like deleting, editing and making new files are stored in a folder which git provides (foldername: .git). So, how do we get this folder where all the history is stored? we have to intialize the folder by command: 'git.init' </b>
 
 ### Git commands
+- git init: to intialize the folder so, that it can store history of file and folder
+- git status: this command tell that these are all the changes which are currently not in the history of project and vice versa.
+- Lets understand staging with help of example: At the wedding, there is a moment when some guest goes on the stage, the photographer clicks the guest photos with a couple, save them so that he can create the album and the guest leaves the stage after clicking the photo. 
+So, similarly staging works in git. First we stage the file and then commit it for saving history. 
+- git add . : it stage all the file present in repo.
+- git add filename.extension: it stage specific file.
+- git commit -m "any message realted to changes": it saves the history of file.
