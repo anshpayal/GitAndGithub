@@ -56,4 +56,4 @@ So, similarly staging works in git. First we stage the file and then commit it f
 - git push origin master/main: it make all changes visibile in github repository.
 
 ### Branches
-![alt text]( https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+![alt text]( https://miro.medium.com/max/1350/1*8dUFcN4MwRr7HV81--icwQ.png)
