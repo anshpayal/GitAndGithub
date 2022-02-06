@@ -57,3 +57,17 @@ So, similarly staging works in git. First we stage the file and then commit it f
 
 ### Branches
 ![alt text]( https://miro.medium.com/max/1350/1*8dUFcN4MwRr7HV81--icwQ.png)
+- Whenever we create new repository, the default branch created is called main/master branch. Like in above images common base is default branch.
+- In above image the circle along the line represents commit in the branch.
+- We can create as many branches as we want.
+- The master/main branches usually contains the most updated or deployed piece of code.
+- From above image we can interpret that, There is a main branch in the repo. A new branch is created from main in the stating itself. There have been two commits in main branch and three commits in the new branch.
+- New branches can be made for a number of reasons, one of the main reason can be: Diffrent teams are woking on a project, like frontend, backend, managing server etc. Each team can create there own branches in the repo, do all the development work in it and when it works properly, merge into the main branch.
+
+### Commands for working with branch
+- git branch branch_name: to create new branch.
+- git checkout branch_name: to switch between branches.
+- git branch -d branch_name: to delete a branch.
+- git branch: to list all the branch.
+- git branch -m old_name new_name: to rename the branch name.
+
