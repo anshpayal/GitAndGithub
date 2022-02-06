@@ -49,7 +49,8 @@ So, similarly staging works in git. First we stage the file and then commit it f
 - git stash: this command is useful when you don't want to lose new feature which are in staging area but also don't want to commit it right now. So, it will go to back stage area
 - git stash pop: when you want feature back from backstage(stash).
 - git stash clean: when you don't need your backstage code and delete it.<br>
-<b> Connecting the local git to github repository, Create the new repository on github and copy it link</b>
+## Commands for connecting local git repo to github repository. 
+-  Create the new repository on github and copy its link. 
 - git remote add origin copied link: here remote helps to connect the local git to remotly hosted repo, add refers adding new URL, origin refers to name of URL which we are copied from github(just like phone number, you don't remember all the numbers and keep a uniquie name for every constact).
 - git remote -v: shows all URL associated with your repository.
 - git push origin master/main: it make all changes visibile in github repository.
