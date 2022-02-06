@@ -27,6 +27,11 @@ Basics of Git and GitHub.
 - mkdir foldername: make the folder inside repo.
 - cd foldername: change directory.
 - touch filename.extension: to create file.
+- vim filename.txt: to edit the text file.
+- Esc + :w : this command is for vim editor. Helps in saving the file.
+- Esc + :wq : this command is for vim editor. Helps in saving and quit the edited file.
+- cat filename.txt: to check whats inside the file.
+- rm -rf filename.extension: delete the file.
 
 <b> All the operation which we perform like deleting, editing and making new files are stored in a folder which git provides (foldername: .git). So, how do we get this folder where all the history is stored? we have to intialize the folder by command: 'git.init' </b>
 
@@ -38,3 +43,13 @@ So, similarly staging works in git. First we stage the file and then commit it f
 - git add . : it stage all the file present in repo.
 - git add filename.extension: it stage specific file.
 - git commit -m "any message realted to changes": it saves the history of file.
+- git restore --staged filename.extension: it unstage the stage file,means it remove file from staged area.
+- git log: to check all history of files.
+- git reset hashcode_of_commit : it helps to remove the commit from history of log. But you can't specificly remove the middle commit. This command remove all the commit before the selected hashcode commit.Because each commit hash code is bulid up on each other.
+- git stash: this command is useful when you don't want to lose new feature which are in staging area but also don't want to commit it right now. So, it will go to back stage area
+- git stash pop: when you want feature back from backstage(stash).
+- git stash clean: when you don't need your backstage code and delete it.<br>
+<b> Connecting the local git to github repository.<b><br>
+<b>Create the new repository on github and copy it link<b>
+- git remote add origin copied link: here remote helps to connect the local git to remotly hosted repo, add refers adding new URL, origin refers to name of URL which we are copied from github(just like phone number, you don't remember all the numbers and keep a uniquie name for every constact).
+- 
