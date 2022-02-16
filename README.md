@@ -67,6 +67,7 @@ So, similarly staging works in git. First we stage the file and then commit it f
 ### Commands for working with branch
 - git branch branch_name: to create new branch.
 - git checkout branch_name: to switch between branches.
+- git merge branch_name: to merge two branches.
 - git branch -d branch_name: to delete a branch.
 - git branch: to list all the branch.
 - git branch -m old_name new_name: to rename the branch name.
